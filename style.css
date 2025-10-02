@@ -1,0 +1,68 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center the app */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #121212;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 30px;
+  background: #1e1e1e;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Timer display */
+#display {
+  font-size: 3rem;
+  margin: 20px 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: #000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#start {
+  background: #4caf50;
+  color: white;
+}
+
+#stop {
+  background: #f44336;
+  color: white;
+}
+
+#reset {
+  background: #2196f3;
+  color: white;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
